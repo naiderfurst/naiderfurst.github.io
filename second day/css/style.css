@@ -1,0 +1,61 @@
+.firstform{
+    width: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;    
+    background-color: powderblue;
+}
+.firstform section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstform label, .firstfield input{
+
+    /* so we can give these inline fields a width, make them display:block*/
+    display: block;
+    width: 30%;
+}
+
+.firstform, .secondform{
+    width: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;    
+    background-color: powderblue;
+}
+.firstform section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstform label, .firstfield input{
+
+    /* so we can give these inline fields a width, make them display:block*/
+    display: block;
+    width: 30%;
+}
+
+
+
+
+
+/* make a differnet form layout (varticle)*/
+
+.secondform{
+    display: flex;
+}
+
+.secondform section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* flexgrow  has to be applied to things individually inside of the display:flex container*/
+.secondform .labels{
+    flex-grow: 1;
+}
+
+.secondform .fields{
+ flex-grow: 2;
+}
