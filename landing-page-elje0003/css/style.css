@@ -240,7 +240,7 @@ footer{
 }
 
 
-                                               /** Table **/
+                       /******************************** tablet   **************************************************/
   @media screen and (min-width: 35rem){
            /* images  */
     
@@ -304,9 +304,10 @@ h1{
     
 }
 .button{
-    width:525px ;
-    height:64px ;
-    margin-left: 30px;    
+   width: 525px;
+   height: 64px;
+   margin-left: 30px;
+   font-size: 32px;    
 }
 .check {
     margin-left: 30px; 
@@ -317,16 +318,40 @@ h1{
   }
                                             /************** Footer ***************/
 
-                                            
+   footer {
+       height: 200px;
+   }                                        
   .see{
      height: 22;
      width: 371px;
      margin-left: 100px;
  } 
  .how{
-     margin-right: 170px;
+     margin-right: 180px;
+ }
+ .hours{
+    margin-left: 80px;
+ }
+ .calculate{
+     width: 200px;
+     height: 40px;
+     
  }
 
+ .hours{
+     margin-left: 0px;
+ }
+ .icons{
+    justify-content: space-between;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: row;
+    
+}
+
+@media screen and (min-width: 80rem)
+    
+}
   
   
   
