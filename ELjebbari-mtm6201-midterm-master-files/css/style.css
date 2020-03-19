@@ -1,0 +1,592 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+                                    
+                                            /******Banner*******/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #3c3b3a;
+    width: 100%;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  .logo{
+    width: 75px;
+}
+
+                                                    /****** body*******/
+  h1{
+      font-weight: bold;
+      font-size: 40px;
+      color: #3c3b3a;
+      margin-left: 35px;
+      margin-top: 25px;
+     
+  }
+.first{
+    font-size: 20px;
+    margin-left: 35px;
+    color: #3c3b3a;
+    margin-top: 15px;
+     line-height: 1.1;
+    
+}
+
+                                        /**********picture********/
+.bowling{
+    width: 65px;
+}                                        
+
+.rock{
+    width: 65px
+}
+
+.fitness{
+    width: 65px;
+}
+
+.basketball{
+    width:65px;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    margin: 30px;
+    background-color: #26A682;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow:  4px 6px 17px  grey;
+    
+}
+
+.discover{
+    width: 300px;
+    margin-left: 50px;
+}
+.school{
+    width: 100%;
+    height: 200px;
+}
+
+.college{
+   color: #26A682;
+   margin-left: 35px; 
+   margin-top: 10px;
+   font-size: 24px;
+}
+.second{
+   margin-left: 35px; 
+   margin-top: 5px;
+   font-size: 16px;
+   color: #3C3B3A;
+   line-height: 1.5;
+}
+
+.button2{
+    width:146px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #26A682;
+    color: white;
+    height: 45px;
+    box-shadow:  4px 6px 17px  grey;
+    border-radius: 25px;
+    margin-left: 60%;
+    margin-bottom: 35px;
+    margin-top: 20px;
+
+}
+.midlle{
+    background-color:#3c3b3a;
+}
+.simon{
+    width:178px;
+    margin-left: 110px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.dij{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.third{
+    color: white;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.entertainment{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.enter{
+     color: #26A682;
+   margin-left: 35px; 
+   margin-top: 10px;
+   font-size: 24px;
+}
+.third1{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+}
+footer{
+    background-color:#3C3B3A ;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.follow{
+    margin-left: 38%;
+    font-size: 24px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.icons{
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+.icon{
+    margin:0 3px;
+}
+
+
+                                    /****************** top ***************/
+
+ .top{
+     margin-left: 80%;
+ }
+
+
+                             /***********************About *************************/
+.construction{
+    width: 301px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.About{
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+
+.services{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.color{
+    background-color: #f2f2f2;
+    padding-top: 55px;
+    
+}
+
+.middle-collor{
+    background-color: #3C3B3A;
+    height: 120px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.keep{
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe{
+    font-family: 'Raleway', sans-serif;
+    width: 140px;
+    height: 35px;
+    background-color: #26A682;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.indoor{
+    padding-bottom: 50px;
+}
+
+.special{
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Raleway', sans-serif; 
+    color:#3C3B3A ;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sa{
+    width: 301px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.ac{
+    width: 202px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.pcl{
+    width: 220px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.cibc{
+    width: 152px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+               /************************* Contact ************************/
+
+.contactpic{
+    width: 302px;
+    margin-left: 65px;
+}
+
+
+                /*******************************Form*************************/    
+
+.form{
+    
+    box-shadow:  4px 6px 17px  grey ;
+    border-radius: 20px;
+    background-color:#26A682;
+    width:300px;
+    height: 546px;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+section input  {
+    background-color: #F4F4F5;
+    display: block;
+    margin: 0 10px;
+    width: 90%;
+    padding-left: 5px;
+    border-radius: 25px;
+    height: 30px;
+    
+    margin-left: 12px;
+}
+.contact-1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.form-name{
+    margin-left: 15px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#Message{
+    height: 100px;
+}
+section {
+    margin-bottom: 20px; 
+}
+.submit{
+    width: 85%;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: #707070;
+    color: white;
+    font-size: 35px;
+
+}
+                                    /***********maps********/
+
+.maps{
+    margin-top: 80px;
+}
+h2{
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.bowl,.ling{
+    display: none;
+}
+
+                                    /*************** Tablet *************/
+@media screen and (min-width: 750px){
+   
+
+.logo{
+    margin-right: 70%;
+   }
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.midlle{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    padding: 15px 35px;
+    text-align: center;
+}
+.simon{
+    margin: 0;
+}
+.dji{
+    margin: 0 auto;
+}
+.first{
+    font-size: 24px;
+}
+.second{
+    font-size: 24px;
+}
+.third{
+    
+    font-size: 24px;
+}
+h1{
+      font-size: 72px;
+  } 
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+   }
+.button{
+    margin: 0 auto;
+    margin-top: 40px;    
+    display: flex;
+
+}   
+
+.discover{
+    margin: 0 auto;
+    margin-top: 40px;        
+    display: flex;
+   }
+.construct{
+    width: 100%;
+    text-align: center;
+}
+.construction{
+    width: 520px;
+}
+.keep{
+    font-size: 24px;
+}
+.middle-collor{
+    display: flex;
+    padding: 0px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.break{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin: 75px;
+}
+.ling{
+    width: 210px;
+    height: 365px;
+
+}
+.break h1,p,.enter,.third1{
+    margin: 15px 0;
+
+  }
+ h1{
+     font-size: 40px;
+ } 
+
+ .bowl{
+    width: 210px;
+    height: 365px;
+ }
+
+ .color h1,p,.enter,.third1{
+    margin: 15px 0;
+
+  }
+  .bawling{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 75px;
+}
+.jigsaw{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 190px;
+}
+.bowl,.ling{
+    display: list-item;
+}
+
+
+}                                    
+
+
+                    /******************************** Contact **********************/
+body{
+    margin: 0 auto;
+}     
+.contactpicc{
+    width: 100%;
+    text-align: center;
+}               
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 10 500px;
+}
+
+/*d-top*/
+@media screen and (min-width: 975px){
+    h1{
+        margin: 0;
+        font-size: 58px;
+    }
+    .first{
+        margin: 35px 0;
+        font-size: 18px;
+    }
+    .grid{
+        margin: 35px 0;
+    }
+    .button{
+        margin: 25px 0;
+        width: 225px;
+    }
+    .discovery{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 50px;
+    }
+    .discover{
+        width: 475px;
+        margin: 0 40px;
+    }
+    .arts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #F2F2F2;
+        align-items: center;
+        text-align: right;
+        padding: 15px 0;
+    }
+    .college-desc{
+        text-align: left;
+    }
+    .arts h1,.college,.second{
+        margin: 5px 15px;
+    }
+    .school{
+        width: 450px;
+    }
+    }
+
+
+
