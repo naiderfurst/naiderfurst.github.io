@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Source Serif Pro, sans-serif;
+  background-color: #2F4F4F;
+}
+
+nav {
+  background-color: #153838;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 180px;
+}
+
+.head {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+.logo {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 45px;
+}
+
+li a {
+  color: white;
+}
+
+ul {
+  margin-bottom: 15px;
+}
+
+.photo {
+  width: 100%;
+  height: 473px;
+}
+
+.text-ash {
+  margin-top: 50px;
+  margin-left: 25px;
+  color: #D4AF37;
+}
+
+.hello {
+  font-size: 33px;
+}
+
+.achraf {
+  font-size: 54px;
+}
+
+.web {
+  font-size: 21px;
+  float: right;
+  margin-right: 25px;
+}
+
+.por {
+  width: 166px;
+  font-size: 26px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  margin-left: 28px;
+  margin-top: 25px;
+  font-family: Source Serif Pro;
+  height: 45px;
+}
+
+.hire {
+  width: 127px;
+  font-size: 26px;
+  cursor: pointer;
+  background: transparent;
+  color: #D4AF37;
+  border-radius: 15px;
+  margin-left: 8px;
+  margin-top: 25px;
+  font-family: Source Serif Pro;
+  height: 43px;
+  border: 2px solid #D4AF37;
+}
+
+.icons {
+  margin-left: 42%;
+  display: inline;
+}
+
+.icon {
+  width: 18px;
+  margin: 0 2px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/********************** About *******************/
+.photo1 {
+  width: 100%;
+  height: 400px;
+  border-radius: 0px 0px 0px 600px;
+}
+
+.text-about {
+  color: #D4AF37;
+}
+
+.about {
+  color: #D4AF37;
+  position: relative;
+  bottom: 65px;
+  margin-left: 25px;
+  text-align: left;
+  font-size: 45px;
+}
+
+.achraf-about {
+  font-size: 33px;
+  margin-right: 30px;
+}
+
+.achraf-about1 {
+  font-size: 38px;
+  margin-right: 25px;
+}
+
+.line {
+  margin-left: 25px;
+  margin-top: 55px;
+}
+
+.line1 {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.text-about {
+  margin-top: 15px;
+}
+
+/**** buttons*******/
+.por-about {
+  width: 222px;
+  font-size: 26px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-top: 25px;
+  font-family: Source Serif Pro;
+  height: 41px;
+}
+
+/*****************icons**********/
+.icons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline;
+}
+
+.btc {
+  width: 35px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.all-text {
+  position: relative;
+  bottom: 50px;
+}
+
+.web-about {
+  margin-top: 15px;
+  font-size: 25px;
+  float: right;
+  margin-right: 25px;
+}
+
+/*********project********/
+.project {
+  color: #D4AF37;
+  font-size: 55px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.logo-project {
+  width: 317px;
+  border: solid #D4AF37;
+  background-color: white;
+  height: 231px;
+}
+
+.portrait-project {
+  width: 317px;
+  height: 231px;
+  border: solid #D4AF37;
+}
+
+.land-project {
+  width: 317px;
+  height: 231px;
+  border: solid #D4AF37;
+}
+
+.vector {
+  width: 317px;
+  height: 231px;
+  border: solid #D4AF37;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*************************phone*****************/
+.phone1 {
+  width: 200px;
+  float: right;
+  border-radius: 100% 50px 200px 0px;
+  height: 618px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  margin-right: 28px;
+  bottom: 90px;
+  position: relative;
+}
+
+.phone {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  color: white;
+  float: left;
+  font-size: 12px;
+  height: 5px;
+}
+
+.contact-text {
+  margin-left: 30px;
+}
+
+.mail {
+  float: left;
+  width: 15px;
+}
+
+.phone1 {
+  position: relative;
+  right: 50px;
+}
+
+.icons2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline;
+  position: relative;
+  top: 650px;
+  right: 20px;
+}
+
+/******************* Tablet **************/
+/*# sourceMappingURL=sassy.css.map */

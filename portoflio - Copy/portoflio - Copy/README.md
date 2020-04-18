@@ -1,0 +1,1 @@
+I Used variables of sass I tried to use more but I I was running of the time i like scss its so handy, i finished the mobile version its just close to my mock-up i found hard to make my image as my mock-up, I couldn’t make tablet and desktop version its was kinda difficult but this is my goal in this summer 
